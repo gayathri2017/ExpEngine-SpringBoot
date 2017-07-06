@@ -1,0 +1,27 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+
+
+Written a Micro Service for publishing and subscribing to messages using Spring Boot and JMS broker.
+Endpoint URL to access the Restful web service will be http://localhost:8080/cruiseinfo 
+•	The service will handle the GET request for /cruiseinfo and will return the following
+        {"id":1,"content":"Welcome to TE2 Subscription, elite customer!"}
+
+•	Optionally URL will accept a name parameter http://localhost:8080/cruiseinfo?name=gayathri
+it will return the below the default value will be replacing with the name value provided.
+              {"id":7,"content":"Welcome to TE2 Subscription, gayathri!"}
+
+•	The response returns an id field which uniquely identifies the greeting and content is the textual representation of the greeting. And the id counter increases showing we are using the same controller across multiple request.
+
+•	Inside the SpringBoot console you will see the following message showing publisher and consumer of the JMS messaging.
+Sending an email message from Experience Engine regarding your recent cruise.
+Received <Email{to=info@expengine.com, body=Hello}>

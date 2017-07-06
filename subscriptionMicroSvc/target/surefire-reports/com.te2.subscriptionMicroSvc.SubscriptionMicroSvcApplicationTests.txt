@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.te2.subscriptionMicroSvc.SubscriptionMicroSvcApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.696 sec - in com.te2.subscriptionMicroSvc.SubscriptionMicroSvcApplicationTests
